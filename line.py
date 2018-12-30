@@ -135,14 +135,14 @@ class MyDecimal(Decimal):
         return abs(self) < eps
 
 
-l1 = Line(normal_vector=Vector([4.046, 2.836]), constant_term=1.21)
-l2 = Line(normal_vector=Vector([10.115, 7.09]), constant_term=3.025)
-print("Line 1 and 2: ", l1.intersection_with(l2))
-
-l3 = Line(normal_vector=Vector([7.204, 3.182]), constant_term=8.68)
-l4 = Line(normal_vector=Vector([8.172, 4.114]), constant_term=9.883)
-print("Line 3 and 4: ", l3.intersection_with(l4))
-
-l5 = Line(normal_vector=Vector([1.182, 5.562]), constant_term=6.744)
-l6 = Line(normal_vector=Vector([1.773, 8.343]), constant_term=9.525)
-print("Line 5 and 6: ", l5.intersection_with(l6))
+# l1 = Line(normal_vector=Vector([4.046, 2.836]), constant_term=1.21)
+# l2 = Line(normal_vector=Vector([10.115, 7.09]), constant_term=3.025)
+# print("Line 1 and 2: ", l1.intersection_with(l2))
+#
+# l3 = Line(normal_vector=Vector([7.204, 3.182]), constant_term=8.68)
+# l4 = Line(normal_vector=Vector([8.172, 4.114]), constant_term=9.883)
+# print("Line 3 and 4: ", l3.intersection_with(l4))
+#
+# l5 = Line(normal_vector=Vector([1.182, 5.562]), constant_term=6.744)
+# l6 = Line(normal_vector=Vector([1.773, 8.343]), constant_term=9.525)
+# print("Line 5 and 6: ", l5.intersection_with(l6))
