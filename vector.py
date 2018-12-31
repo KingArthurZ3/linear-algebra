@@ -28,6 +28,9 @@ class Vector(object):
     def __eq__(self, v):
         return self.coordinates == v.coordinates
 
+    def __getitem__(self, i):
+        return self.coordinates[i]
+
     def add(self, v):
         new_coordinates = [x+y for x,y in zip(self.coordinates, v.coordinates)]
         return Vector(new_coordinates)
@@ -68,10 +71,14 @@ class Vector(object):
 
     def angle(self, v, in_degrees=False):
         try:
-            if not in_degrees:
-                return math.acos(self.normalized().dot(v.normalized()))
+            u1 = self.normalized()
+            u2 = v.normalized()
+            angle_in_radians = math.acos(round(u1.dot(u2), 3))
+            if in_degrees:
+                degrees_per_radian = 180. / math.pi
+                return angle_in_radians * degrees_per_radian
             else:
-                return math.degrees(math.acos(self.normalized().dot(v.normalized())))
+                return angle_in_radians
         except Exception as e:
             if str(e) == self.CANNOT_NORMALIZE_ZERO_VECTOR_MSG:
                 raise Exception(self.CANNOT_NORMALIZE_ZERO_VECTOR_MSG)
