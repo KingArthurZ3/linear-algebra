@@ -111,7 +111,7 @@ class LinearSystem(object):
         pivot_indices = self.indices_of_first_nonzero_terms_in_each_row()
         free_variable_indices = set(range(num_variables)) - set(pivot_indices)
 
-        direction_vectors= []
+        direction_vectors = []
 
         for free_var in free_variable_indices:
             vector_coords = [0] * num_variables
