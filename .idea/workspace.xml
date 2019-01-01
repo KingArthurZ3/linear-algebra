@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf3591d3-43c5-4a25-b3ae-740dd56dff56" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linsys.py" beforeDir="false" afterPath="$PROJECT_DIR$/linsys.py" afterDir="false" />
-    </list>
+    <list default="true" id="bf3591d3-43c5-4a25-b3ae-740dd56dff56" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,12 +228,12 @@
       <updated>1546041146286</updated>
       <workItem from="1546041147727" duration="22154000" />
       <workItem from="1546213624571" duration="10903000" />
-      <workItem from="1546325626382" duration="1911000" />
+      <workItem from="1546325626382" duration="1986000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34968000" />
+    <option name="totallyTimeSpent" value="35043000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />

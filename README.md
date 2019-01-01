@@ -3,8 +3,7 @@
 This library provides implementations of vectors, lines, planes of nth dimensions, and also a linear systems of equations class. On a high level, the linear systems class can be used to solve for intersections and returns the intersection (if one exists), both as a unique point or as a parametrized equation. More detailed documentation for each classes methods can be found below.
 
 ### Vectors
-
-![network structure](https://github.com/KingArthurZ3/linear-algebra/blob/master/rsc/vectors.png "vectors")
+<img src="https://github.com/KingArthurZ3/linear-algebra/blob/master/rsc/vectors.png" width="100%" height="30%" title="Vectors">
 
 The vector object is initialized from a set of coordinates in n dimensions. A short list of some useful vector functions defined for it are listed below.
 
